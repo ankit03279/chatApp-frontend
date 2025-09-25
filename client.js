@@ -1,4 +1,4 @@
-const socket = io("http://localhost:4000");
+const socket = io("https://chatapp-backend-lu84.onrender.com/");
 
 const msgContainer = document.querySelector(".container");
 const form = document.querySelector(".message_send");
