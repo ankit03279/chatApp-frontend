@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatApp</title>
+  <script defer src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script defer src="./client.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="chat_logo.jpeg" alt="Chat Logo" class="logo_img">
+  </div>
+
+  <div class="container">
+    <div class="msgbox left">Hey! I am Ankit </div>
+    <div class="msgbox right">Hello, I am Saurabh </div>
+    <div class="msgbox left">How are you?</div>
+    <div class="msgbox right">I'm good, what about you?</div>
+  </div>
+
+  <div class="input_message">
+    <form action="#" class="message_send">
+      <input type="text" class="message" placeholder="Type a message...">
+      <button class="send" type="submit">➤</button>
+    </form>
+  </div>
+</body>
+</html>
